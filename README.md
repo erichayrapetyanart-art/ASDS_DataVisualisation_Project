@@ -1,15 +1,36 @@
-# Data Science / ML Project
+# 👗 Women's Clothing Reviews Dashboard
 
-## Overview
-This project contains exploratory data analysis and/or machine learning experiments implemented in Jupyter Notebooks.
+An interactive **Dash web application** for analyzing customer reviews, ratings, and product behavior in an e-commerce clothing dataset.
 
 ---
 
-## Setup
+## 🚀 Features
 
-Create virtual environment:
+- Overview of ratings, recommendations, and customer demographics
+- Customer behavior analysis (age, feedback, satisfaction)
+- Product & department insights
+- Correlation and trend analysis (trend vs non-trend products)
+- Fully interactive dashboard built with Plotly Dash
 
-```bash
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-# venv\Scripts\activate    # Windows
+---
+
+## 📊 Tech Stack
+
+- Python
+- Dash
+- Plotly
+- Pandas
+- NumPy
+- Dash Bootstrap Components
+
+---
+
+## 📁 Project Structure
+
+```text
+.
+├── app.py
+├── requirements.txt
+├── data/
+│   └── Womens Clothing E-Commerce Reviews.csv
+├── README.md
